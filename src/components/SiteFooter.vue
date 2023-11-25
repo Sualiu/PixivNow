@@ -37,6 +37,7 @@ footer.global-footer
       a(:href='GITHUB_URL' target='_blank') {{ PROJECT_NAME }}
       | &nbsp;
       em v{{ version }}
+      p rmoe-开发测试
     .dev-only(style='font-style: italic')
       | This is test site →&nbsp;
       a(:href='"https://pixiv.js.org" + $route.path' target='_blank') Go to Prod.
